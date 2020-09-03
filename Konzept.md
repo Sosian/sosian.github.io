@@ -1,6 +1,6 @@
-Title: F & F Hochzeit
-Links oben: Florian & Fanny Hochzeit
-Menüs: Einladung, Location, Ablauf, FAQ
+Title: F & F Hochzeit X
+Links oben: Florian & Fanny Hochzeit X
+Menüs: Einladung, Location, Ablauf, FAQ X
 Einladung
 -> Text
 Location
