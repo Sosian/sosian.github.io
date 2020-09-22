@@ -3,13 +3,12 @@
 	color: #{{ site.color.primary }};
 }
 
-.panel-heading a{ text-decoration: none;color:white;vertical-align: bottom;}
+.panel-heading a{ text-decoration: none;;vertical-align: bottom;}
 
 .panel-heading a:hover {color: #3d78d8;}
 
 .panel-heading-question{
 	vertical-align: middle;
-    padding-right: 10px;
 }
 
 .panel-body{
@@ -26,5 +25,3 @@
 	height: 0;
 	overflow: hidden;
 }
-
-.highlight {overflow: auto; background-color: #efefef;}
