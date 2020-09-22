@@ -1,5 +1,6 @@
 .panel-heading {
 	cursor: pointer;
+	color: #{{ site.color.primary }};
 }
 
 .panel-heading a{ text-decoration: none;color:white;vertical-align: bottom;}
@@ -13,6 +14,7 @@
 
 .panel-body{
 	padding: 0 10px;
+	color: #{{ site.color.primary }};
 }
 
 .hidden-element {
@@ -24,4 +26,5 @@
 	height: 0;
 	overflow: hidden;
 }
+
 .highlight {overflow: auto; background-color: #efefef;}
