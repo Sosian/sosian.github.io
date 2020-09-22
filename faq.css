@@ -1,22 +1,18 @@
 .panel-heading {
-	padding:10px;
-	display: inline-block;
-	width: 100%;
-	position: relative;
 	cursor: pointer;
-	color: 
 }
+
 .panel-heading a{ text-decoration: none;color:white;vertical-align: bottom;}
 
-.panel-heading:hover, .panel-heading-hover {background-color: #3d78d8;border: 1px solid #3d78d8;}
+.panel-heading a:hover {color: #3d78d8;}
 
 .panel-heading-question{
 	vertical-align: middle;
     padding-right: 10px;
 }
+
 .panel-body{
 	padding: 0 10px;
-	width: 100%;
 }
 
 .hidden-element {

@@ -10,7 +10,9 @@
         <div class="row">
             <div class="col-lg-4 col-lg-offset-2">
                 <div class="panel">
-                    <img alt="" class="panel-heading-question" data-toggle="{{forloop.index}}" src="img/questionmark.png"><a data-toggle="{{forloop.index}}" href="javascript:void(0)">{{site.faqs.title}}</a>
+                    <div class="panel-heading" data-toggle="{{forloop.index}}"> 	
+                        <img alt="" class="panel-heading-question" data-toggle="{{forloop.index}}" src="img/questionmark.png"><a data-toggle="{{forloop.index}}" href="javascript:void(0)">{{site.faqs.title}}</a>
+                    </div>
                     <div class="panel-body hidden-element" data-body="{{forloop.index}}"> 
                         {{site.faqs.body}} 
                     </div>
