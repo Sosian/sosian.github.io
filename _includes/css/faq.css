@@ -1,9 +1,9 @@
 .panel-heading {
 	cursor: pointer;
-	color: #{{ site.color.primary }};
+	background-color: #{{ site.color.primary }};
 }
 
-.panel-heading a{ text-decoration: none;;vertical-align: bottom;}
+.panel-heading a{ text-decoration: none;color: #fff ;vertical-align: bottom;}
 
 .panel-heading a:hover {color: #3d78d8;}
 
@@ -13,7 +13,7 @@
 
 .panel-body{
 	padding: 0 10px;
-	color: #{{ site.color.primary }};
+	background-color: #{{ site.color.primary }};
 }
 
 .hidden-element {
