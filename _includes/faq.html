@@ -12,7 +12,7 @@
                 {% for item in site.faqs %}
                     <div class="panel">
                         <div class="panel-heading" data-toggle="{{forloop.index}}"> 	
-                            <img alt="" class="panel-heading-question" data-toggle="{{forloop.index}}" src="questionmark.png"><a data-toggle="{{forloop.index}}" href="javascript:void(0)">{{item.title}}</a>
+                            <img alt="" class="panel-heading-question" data-toggle="{{forloop.index}}" src="img/questionmark.png"><a data-toggle="{{forloop.index}}" href="javascript:void(0)">{{item.title}}</a>
                         </div>
                             <div class="panel-body hidden-element" data-body="{{forloop.index}}"> 
                             {{item.body}} 
