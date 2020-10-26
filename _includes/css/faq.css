@@ -3,7 +3,7 @@
 	background-color: #{{ site.color.primary }};
 }
 
-.panel-heading a{ text-decoration: none;color: #fff ;vertical-align: bottom;}
+.panel-heading a{ text-decoration: none;color: #fff ;}
 
 .panel-heading a:hover {color: #3d78d8;}
 
@@ -12,6 +12,7 @@
 }
 
 .panel-body{
+	padding: 0 10px;
 	background-color: #{{ site.color.primary }};
 }
 
