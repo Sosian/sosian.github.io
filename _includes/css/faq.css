@@ -12,7 +12,6 @@
 }
 
 .panel-body{
-	padding: 0 10px;
 	background-color: #{{ site.color.primary }};
 }
 
