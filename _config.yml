@@ -1,5 +1,5 @@
 # Site settings
-title: 10 Jahre - Zeit für eine Feier!
+title: 10 Jahre - Zeit für Feiern!
 url: 
 description: "Florian und Fanny Hochzeit"
 skills: "28.08.2021"
@@ -10,7 +10,7 @@ color:
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
   secondary-dark: 233140 #A2122F
-  
+
 # Build settings
 markdown: kramdown
 permalink: pretty
