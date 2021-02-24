@@ -9,14 +9,16 @@
         </div>
         <div class="row">
             <div class="d-flex justify-content-center">
+                {% for faq in site.faqs %}
                 <div class="panel">
                     <div class="panel-heading" data-toggle="{{forloop.index}}"> 	
-                        <a style="pointer-events: none;"><h3>{{site.faqs.title}} +</h3></a>
+                        <a style="pointer-events: none;"><h3>{{faq.title}} +</h3></a>
                     </div>
                     <div class="panel-body hidden-element" style="pointer-events: none;" data-body="{{forloop.index}}"> 
-                        {{site.faqs.body}} 
+                        {{faq.body}} 
                     </div>
                 </div>
+                {% endfor %}
             </div>
         </div>
     </div>
