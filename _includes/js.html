@@ -9,14 +9,14 @@
          const lainzerTor = { lat: 48.166893, lng: 16.257109 };
       
          const map = new google.maps.Map(document.getElementById("map"), {
-            zoom: 20,
+            zoom: 15,
             center: lainzerTor,
          });
       
          const marker = new google.maps.Marker({
             position: lainzerTor,
             map: map,
-            title: "Lainzer Tor"
+            label: "Lainzer Tor"
          });
       }
     </script>
