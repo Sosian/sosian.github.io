@@ -10,11 +10,11 @@
         <div class="row">
             <div class="d-flex justify-content-center">
                 {% for faq in site.faqs %}
-                <div class="panel">
-                    <div class="panel-heading" data-toggle="{{forloop.index}}"> 	
+                <div>
+                    <div> 	
                         <span><h3>{{faq.title}} +</h3></span>
                     </div>
-                    <div class="panel-body hidden-element" style="display:block; pointer-events: none; font-size: large;" data-body="{{forloop.index}}"> 
+                    <div style="font-size: large;"> 
                         {{faq.body}} 
                     </div>
                 </div>
