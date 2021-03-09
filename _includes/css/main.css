@@ -167,6 +167,11 @@ header .intro-text .skills {
     outline: 0;
 }
 
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
 .navbar-default,
 .navbar-inverse {
     border: 0;
@@ -482,15 +487,4 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
-}
-
-#map {
-    height: 400px;
-    /* The height is 400 pixels */
-    width: 100%;
-    /* The width is the width of the web page */
-  }
-
-  @media (hover) {
-
 }
