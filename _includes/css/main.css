@@ -94,13 +94,23 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text .name {
+header .intro-text {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
     white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.name {
+    display: block;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    font-weight: 700;
     text-overflow: ellipsis;
     overflow: hidden;
 }
