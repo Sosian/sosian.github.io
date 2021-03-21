@@ -94,26 +94,16 @@ header img {
     margin: 0 auto 20px;
 }
 
-header .intro-text {
+header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
-    white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
 }
 
-.name {
-    display: block;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
-    font-weight: 700;
-    text-overflow: ellipsis;
-    overflow: hidden;
-}
 
 header .intro-text .skills {
     font-size: 1.25em;
